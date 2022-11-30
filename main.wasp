@@ -27,6 +27,6 @@ query getTasks {
 }
 
 action createTask {
-  fn: import { createTask } from "server/actions.js",
+  fn: import { createTask } from "@server/actions.js",
   entities: [Task]
 }
